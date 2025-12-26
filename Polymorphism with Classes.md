@@ -26,7 +26,20 @@ To create two specific classes — `Beans` and `Mango`. Then, create a **generic
 ---
 
 ## 💻 Program
+```
+    def __init__(self,a):
+        self.a=a
+    def __lt__(self,other):
+        return self.a<other.a
+ob1 = A(2)
 
+ob2 = A(3)
+if ob2<ob1:
+    print("ob2 is less than ob1")
+else:
+    print("ob1 is less than ob2")
+```
 ## Output
+<img width="607" height="343" alt="image" src="https://github.com/user-attachments/assets/49526951-4411-4f1e-8edf-c4069fab57e1" />
 
 ## Result
